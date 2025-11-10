@@ -1,19 +1,21 @@
 {
   "name": "gridiron-intel-ai",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "homepage": "https://pixellogic-tech.github.io/GridIron-Intel-AI/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   },
   "dependencies": {
     "@google/genai": "^1.28.0",
     "lucide-react": "^0.552.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-router-dom": "^7.9.5",
     "recharts": "^3.3.0"
   },
