@@ -1,0 +1,8 @@
+{
+  "name": "Gridiron Intel AI",
+  "description": "An AI-powered football analytics app for coaches and teams. Features include real-time play prediction, AI film analysis, player portals, and a conversational AI assistant.",
+  "requestFramePermissions": [
+    "microphone",
+    "geolocation"
+  ]
+}
